@@ -8,4 +8,6 @@ function changeTime(num) {
   return hours + 'h ' + minutes + 'min ' + sec + 'sec';
 }
 
-exports.time = changeTime();
+module.exports = {
+  time: changeTime
+};
